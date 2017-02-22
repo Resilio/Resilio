@@ -1,14 +1,14 @@
-# Folder used to store logs
+# Logs:
 
-#2017/02/17
+##2017/02/17
 
-##Definition of the project
+###Definition of the project
 
 Finally we decided that we are going to use docker swarm instead of pacemaker or any other cluster software.
 
-#2017/02/22
+##2017/02/22
 
-##Waiting for IP access.
+###Waiting for IP access.
 
 Yes my niggas, We are still waiting for an IP to remotely access.
 
