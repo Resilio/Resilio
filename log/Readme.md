@@ -3,6 +3,8 @@
 ##2017/03/02
 Changed root password for our "la de sempre" password.
 
+Granted access to the raspberry via ssh configuring a port forwarding on the router, a dhcp for an static IP for the raspberry and using a DynDNS (noip.com), tomorrow I'll make some changes on the ssh service to make this access more secure, for now I'm shutting down the raspberry.
+
 ##2017/02/22
 
 ###Waiting for IP access.
