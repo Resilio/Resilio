@@ -9,8 +9,6 @@ Granted access to the raspberry via ssh configuring a port forwarding on the rou
 
 ###Waiting for IP access.
 
-Yes my niggas, we are still waiting for an IP to remotely access.
-
 Please, sort it ASAP.
 
 As soon as we have all 3 raspberrys working with docker swarm, we will start to develop our web service.
