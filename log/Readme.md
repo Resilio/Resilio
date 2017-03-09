@@ -5,12 +5,14 @@ Docker swarm running with a manager node and one worker.
 
 Tested it with a ping service ( docker service create --replicas 5 --name pingu hypriot/rpi-alpine-scratch ping google.com )
 
-ID            NAME      IMAGE                              NODE            DESIRED STATE  CURRENT STATE               ERROR  PORTS
-5qi1id72mp88  pingu.1   hypriot/rpi-alpine-scratch:latest  resilioworker1  Running        Running about a minute ago
-v3kdczysbx6j  pingu.2   hypriot/rpi-alpine-scratch:latest  resilioadm      Running        Running 2 seconds ago
-q2azhsiplpgk  pingu.3   hypriot/rpi-alpine-scratch:latest  resilioadm      Running        Running 4 seconds ago
-fju8ksu3yi58  pingu.4   hypriot/rpi-alpine-scratch:latest  resilioworker1  Running        Running 18 seconds ago
-l5p5aa2cofhc  pingu.5   hypriot/rpi-alpine-scratch:latest  resilioworker1  Running        Running 18 seconds ago
+
+| ID | NAME | IMAGE | NODE | DESIRED STATE | CURRENT STATE | ERROR | PORTS |
+|---|---|---|---|---|---|---|---|
+| 5qi1id72mp88 | pingu.1 | hypriot/rpi-alpine-scratch:latest | resilioworker1 | Running | Running about a minute ago |   |   |
+| v3kdczysbx6j | pingu.2 | hypriot/rpi-alpine-scratch:latest | resilioadm | Running | Running 2 seconds ago |   |   |
+| q2azhsiplpgk | pingu.3 | hypriot/rpi-alpine-scratch:latest | resilioadm | Running | Running 4 seconds ago |   |   |
+| fju8ksu3yi58 | pingu.4 | hypriot/rpi-alpine-scratch:latest | resilioworker1 | Running | Running 18 seconds ago |   |   |
+| l5p5aa2cofhc | pingu.5 | hypriot/rpi-alpine-scratch:latest | resilioworker1 | Running | Running 18 seconds ago |   |   |      
 
 We are updating wiki with the steps we followed to get here.
 
