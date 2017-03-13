@@ -1,3 +1,3 @@
 # Resilio project
 
-## Raspberry cluster, with a web app/service running on a mysql database
+## Raspberry cluster, with a web app/service running with a mysql database
